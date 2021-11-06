@@ -28,6 +28,17 @@ public class CategoriaGame {
 	@NotNull
 	@Size(min=5, max= 50)
 	private String faixaEtaria;
+	
+	@NotNull
+	private String pagamento;
+
+	public String getPagamento() {
+		return pagamento;
+	}
+
+	public void setPagamento(String pagamento) {
+		this.pagamento = pagamento;
+	}
 
 	public long getIdCategoria() {
 		return idCategoria;
